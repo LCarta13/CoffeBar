@@ -1,0 +1,173 @@
+/* body */
+
+body{
+    background-color: beige;
+    background-attachment: fixed;
+    background-size:cover;
+    background-size:no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+/* header */
+
+header{
+    display:flex;
+    background-color: beige;
+    justify-content: space-between;
+    align-items: center;
+    padding:2vh;
+}
+
+.logo{
+    width:100%;
+    border-radius: 50%;
+    margin: 0;
+    max-width: 20vh;
+}
+
+.logocontainer{
+    display:flex;
+    width: 30%;
+    align-content: center;
+    justify-content: center;
+}
+
+.title{
+    width: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    padding:0;
+    margin: 0;
+    text-align: left;
+}
+
+nav>ul {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    width: 90%;
+    padding-left: 10%;
+}
+
+nav{
+    width: 35%;
+}
+
+nav>ul>li {
+    text-align: right;
+    justify-content: right;
+    color: #000000;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
+
+li>a {
+    color: inherit;
+}
+
+nav li:hover {
+    background-color: #000000;
+    color: beige;
+    cursor: pointer;
+}
+
+li>a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1{
+    width:33%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    padding:0;
+    margin: 0;
+    text-align: center;
+}
+
+/* main */
+
+.homemain{
+    background-color:burlywood;
+    text-align: center;
+    padding: 10px 0 ;
+    justify-items: center;
+}
+
+.homemain h1{
+    background-color:beige ;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.homemain h2{
+    background-color: beige;
+}
+
+.occhioalmenu {
+    background-color: beige;
+    text-align: center;
+}
+
+.occhioalmenu img{
+    background-color: beige;
+    width:15%;
+    height:15%;
+    border-radius: 70% 40% ;
+}
+
+.mainmenu{
+    background-color: beige;
+}
+
+/* footer */
+footer{
+    background-color: beige;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    padding: 1% 0;
+}
+
+.titoloeccellenza{
+    display:flex;
+    justify-content: center;
+    padding:1vh;
+}
+
+.textmain p{
+    width:90%;
+    justify-content: center;
+    text-align: center;
+    margin: 1% 5%;
+}
+
+.tabellafooter{
+    width: 90%;
+    padding:0 auto;
+    align-self: center;
+}
+
+.tabellafooter tbody tr th{
+    width:50%;
+    text-align: right;
+}
+
+.tabellafooter tbody tr td{
+    width:50%;
+    text-align: left;
+}
+
+
